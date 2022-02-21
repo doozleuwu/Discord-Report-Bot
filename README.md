@@ -24,6 +24,6 @@
 * Fast
 * Free
 * Proxyless
-* Reports users for a message they sent
+* Reports a user for a message they sent
 
 ---------------------------------------
