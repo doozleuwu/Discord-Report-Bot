@@ -54,15 +54,15 @@ class Discord:
                 print(Fore.RED + "[" + Fore.RESET + "!" + Fore.RED + "]" + Fore.RESET + " Error Sending Report!")
 
     def get_reason():
-        print(f"""{Fore.GREEN}[{Fore.RESET}{1}{Fore.GREEN}]{Fore.RESET} Illegal Content
-{Fore.GREEN}[{Fore.RESET}{2}{Fore.GREEN}]{Fore.RESET} Harassment
-{Fore.GREEN}[{Fore.RESET}{3}{Fore.GREEN}]{Fore.RESET} Spam or Phishing Links
-{Fore.GREEN}[{Fore.RESET}{4}{Fore.GREEN}]{Fore.RESET} Self-Harm
-{Fore.GREEN}[{Fore.RESET}{5}{Fore.GREEN}]{Fore.RESET} NSFW Content
+        print(f"""{Fore.GREEN}[{Fore.RESET}{0}{Fore.GREEN}]{Fore.RESET} Illegal Content
+{Fore.GREEN}[{Fore.RESET}{1}{Fore.GREEN}]{Fore.RESET} Harassment
+{Fore.GREEN}[{Fore.RESET}{2}{Fore.GREEN}]{Fore.RESET} Spam or Phishing Links
+{Fore.GREEN}[{Fore.RESET}{3}{Fore.GREEN}]{Fore.RESET} Self-Harm
+{Fore.GREEN}[{Fore.RESET}{4}{Fore.GREEN}]{Fore.RESET} NSFW Content
         """)
         while True: 
             reason = input(Fore.GREEN + "[" + Fore.RESET + "?" + Fore.GREEN + "]" + Fore.RESET + " Reason >> ")
-            if reason in list('12345'):
+            if reason in list('01234'):
                 return reason
             print(Fore.RED + "[" + Fore.RESET + "!" + Fore.RED + "]" + Fore.RESET + " Invalid Reason!")
             print()
