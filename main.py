@@ -7,7 +7,6 @@ from threading import Thread
 from colorama import Fore
 
 kernel32 = ctypes.windll.kernel32
-kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
 tokens = open("data/token.txt", "r").read().splitlines()
 
 logging.basicConfig(
