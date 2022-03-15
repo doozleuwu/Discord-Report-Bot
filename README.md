@@ -3,7 +3,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/kiIogram/GitHub-Username-Checker">
-    <img src="https://i.imgur.com/9l4pHEN.png" alt="Logo" width="120" height="120">
+    <img src="https://i.imgur.com/ryerF6W.png" alt="Logo" width="120" height="120">
   </a>
   
   <h2 align="center">Discord Report Bot</h3>
