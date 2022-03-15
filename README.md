@@ -6,7 +6,7 @@
     <img src="https://i.imgur.com/ryerF6W.png" alt="Logo" width="120" height="120">
   </a>
   
-  <h2 align="center">Discord Report Bot</h3>
+  <h2 align="center">Swift Twitch AIO</h3>
 
   <p align="center">
     Uses requests to report a users message for a certain reason repetitively.
